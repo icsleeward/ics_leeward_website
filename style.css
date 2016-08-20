@@ -1,0 +1,93 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+
+#nav {
+  background-color: #2CC3CC;
+  padding: 15px 0px;
+  text-align: right;
+}
+
+#nav ul{
+  display: inline-block;
+}
+
+#nav li {
+  padding: 0px 15px;
+  display: inline;
+  font-size: 20px;
+  font-family: arial;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+#nav a:hover {
+  color: #fb8332;
+  font-weight: bold;
+}
+
+#nav-content {}
+
+#icon {
+  float: left;
+  width: 75px;
+  height: 75px;
+  padding-left: 50px;
+}
+
+#icon-nav{
+  text-align: center;
+}
+
+#nav-current {
+	color: #fb8332;
+  font-weight: bolder;
+}
+
+#landing-container {
+  min-height: 100%;
+
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#landing-container p{
+  color: #fafafa;
+  font-size: 68px;
+  padding: 75px;
+  text-shadow: #000 2px 2px;
+}
+
+#container{
+  min-height: 100%;
+  background-image: url("http://themocracy.com/wp-content/uploads/2016/07/Tech.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer {
+  text-align: center;
+  padding: 5px 0px;
+  background-color: #fb8332;
+  font-size: 18px;
+  font-family: arial;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+footer a:hover{
+  color: #fafafa;
+}
